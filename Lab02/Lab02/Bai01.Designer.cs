@@ -37,7 +37,7 @@
             // 
             // Button_Read
             // 
-            Button_Read.BackColor = Color.CornflowerBlue;
+            Button_Read.BackColor = Color.FromArgb(128, 255, 255);
             Button_Read.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             Button_Read.Location = new Point(40, 62);
             Button_Read.Name = "Button_Read";
@@ -49,7 +49,7 @@
             // 
             // Button_Write
             // 
-            Button_Write.BackColor = Color.CornflowerBlue;
+            Button_Write.BackColor = Color.FromArgb(128, 255, 255);
             Button_Write.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             Button_Write.Location = new Point(40, 148);
             Button_Write.Name = "Button_Write";
@@ -71,8 +71,9 @@
             // Label_Content
             // 
             Label_Content.AutoSize = true;
+            Label_Content.BackColor = Color.Transparent;
             Label_Content.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Label_Content.ForeColor = Color.CornflowerBlue;
+            Label_Content.ForeColor = Color.White;
             Label_Content.Location = new Point(256, 29);
             Label_Content.Name = "Label_Content";
             Label_Content.Size = new Size(96, 30);
@@ -81,7 +82,7 @@
             // 
             // Button_Exit
             // 
-            Button_Exit.BackColor = Color.CornflowerBlue;
+            Button_Exit.BackColor = Color.FromArgb(128, 255, 255);
             Button_Exit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Exit.Location = new Point(40, 346);
             Button_Exit.Name = "Button_Exit";

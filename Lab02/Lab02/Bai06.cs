@@ -11,7 +11,7 @@ namespace Lab02
     {
         private List<(string tenMon, string nguoiDung, string quyenHan, string hinhAnh)> dsMonAn = new List<(string, string, string, string)>();
         private readonly string dbPath = Path.Combine(Application.StartupPath, "food.db");
-        private readonly string imageFolder = @"D:\Tài Nguyên\Lập trình mạng căn bản\Lab02\Hình Ảnh";
+        private readonly string imageFolder = @"D:\Tài Nguyên\LapTrinhMangCanBan\Lab02\Hình Ảnh";
         private readonly string connString = $"Data Source={{0}};Version=3;Pooling=False;Journal Mode=WAL;Synchronous=Full;";
 
         public Bai06()

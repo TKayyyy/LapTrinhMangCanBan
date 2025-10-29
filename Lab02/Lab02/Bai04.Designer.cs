@@ -69,8 +69,9 @@
             // Label_Name
             // 
             Label_Name.AutoSize = true;
+            Label_Name.BackColor = Color.Transparent;
             Label_Name.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Name.ForeColor = Color.CornflowerBlue;
+            Label_Name.ForeColor = Color.White;
             Label_Name.Location = new Point(35, 70);
             Label_Name.Name = "Label_Name";
             Label_Name.Size = new Size(51, 20);
@@ -80,8 +81,9 @@
             // Label_MSSV
             // 
             Label_MSSV.AutoSize = true;
+            Label_MSSV.BackColor = Color.Transparent;
             Label_MSSV.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_MSSV.ForeColor = Color.CornflowerBlue;
+            Label_MSSV.ForeColor = Color.White;
             Label_MSSV.Location = new Point(35, 111);
             Label_MSSV.Name = "Label_MSSV";
             Label_MSSV.Size = new Size(49, 20);
@@ -91,8 +93,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label1.ForeColor = Color.CornflowerBlue;
+            label1.ForeColor = Color.White;
             label1.Location = new Point(35, 152);
             label1.Name = "label1";
             label1.Size = new Size(53, 20);
@@ -102,8 +105,9 @@
             // Label_Course1
             // 
             Label_Course1.AutoSize = true;
+            Label_Course1.BackColor = Color.Transparent;
             Label_Course1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Course1.ForeColor = Color.CornflowerBlue;
+            Label_Course1.ForeColor = Color.White;
             Label_Course1.Location = new Point(35, 193);
             Label_Course1.Name = "Label_Course1";
             Label_Course1.Size = new Size(70, 20);
@@ -113,8 +117,9 @@
             // Label_Course2
             // 
             Label_Course2.AutoSize = true;
+            Label_Course2.BackColor = Color.Transparent;
             Label_Course2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Course2.ForeColor = Color.CornflowerBlue;
+            Label_Course2.ForeColor = Color.White;
             Label_Course2.Location = new Point(35, 234);
             Label_Course2.Name = "Label_Course2";
             Label_Course2.Size = new Size(70, 20);
@@ -124,8 +129,9 @@
             // Label_Course3
             // 
             Label_Course3.AutoSize = true;
+            Label_Course3.BackColor = Color.Transparent;
             Label_Course3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Course3.ForeColor = Color.CornflowerBlue;
+            Label_Course3.ForeColor = Color.White;
             Label_Course3.Location = new Point(35, 275);
             Label_Course3.Name = "Label_Course3";
             Label_Course3.Size = new Size(70, 20);
@@ -177,8 +183,9 @@
             // Label_Content
             // 
             Label_Content.AutoSize = true;
+            Label_Content.BackColor = Color.Transparent;
             Label_Content.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Label_Content.ForeColor = Color.CornflowerBlue;
+            Label_Content.ForeColor = Color.White;
             Label_Content.Location = new Point(338, 19);
             Label_Content.Name = "Label_Content";
             Label_Content.Size = new Size(96, 30);
@@ -187,7 +194,7 @@
             // 
             // Button_Exit
             // 
-            Button_Exit.BackColor = Color.CornflowerBlue;
+            Button_Exit.BackColor = Color.FromArgb(128, 255, 255);
             Button_Exit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Exit.Location = new Point(35, 394);
             Button_Exit.Name = "Button_Exit";
@@ -199,7 +206,7 @@
             // 
             // Button_Read
             // 
-            Button_Read.BackColor = Color.CornflowerBlue;
+            Button_Read.BackColor = Color.FromArgb(128, 255, 255);
             Button_Read.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Read.Location = new Point(675, 16);
             Button_Read.Name = "Button_Read";
@@ -211,7 +218,7 @@
             // 
             // Button_Add
             // 
-            Button_Add.BackColor = Color.CornflowerBlue;
+            Button_Add.BackColor = Color.FromArgb(128, 255, 255);
             Button_Add.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Add.Location = new Point(120, 349);
             Button_Add.Name = "Button_Add";
@@ -231,8 +238,9 @@
             // Label_Out_Average
             // 
             Label_Out_Average.AutoSize = true;
+            Label_Out_Average.BackColor = Color.Transparent;
             Label_Out_Average.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_Average.ForeColor = Color.CornflowerBlue;
+            Label_Out_Average.ForeColor = Color.White;
             Label_Out_Average.Location = new Point(886, 316);
             Label_Out_Average.Name = "Label_Out_Average";
             Label_Out_Average.Size = new Size(67, 20);
@@ -242,8 +250,9 @@
             // Label_Out_Course3
             // 
             Label_Out_Course3.AutoSize = true;
+            Label_Out_Course3.BackColor = Color.Transparent;
             Label_Out_Course3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_Course3.ForeColor = Color.CornflowerBlue;
+            Label_Out_Course3.ForeColor = Color.White;
             Label_Out_Course3.Location = new Point(883, 275);
             Label_Out_Course3.Name = "Label_Out_Course3";
             Label_Out_Course3.Size = new Size(70, 20);
@@ -253,8 +262,9 @@
             // Label_Out_Course2
             // 
             Label_Out_Course2.AutoSize = true;
+            Label_Out_Course2.BackColor = Color.Transparent;
             Label_Out_Course2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_Course2.ForeColor = Color.CornflowerBlue;
+            Label_Out_Course2.ForeColor = Color.White;
             Label_Out_Course2.Location = new Point(883, 234);
             Label_Out_Course2.Name = "Label_Out_Course2";
             Label_Out_Course2.Size = new Size(70, 20);
@@ -264,8 +274,9 @@
             // Label_Out_Course1
             // 
             Label_Out_Course1.AutoSize = true;
+            Label_Out_Course1.BackColor = Color.Transparent;
             Label_Out_Course1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_Course1.ForeColor = Color.CornflowerBlue;
+            Label_Out_Course1.ForeColor = Color.White;
             Label_Out_Course1.Location = new Point(883, 193);
             Label_Out_Course1.Name = "Label_Out_Course1";
             Label_Out_Course1.Size = new Size(70, 20);
@@ -275,8 +286,9 @@
             // Label_Out_Phone
             // 
             Label_Out_Phone.AutoSize = true;
+            Label_Out_Phone.BackColor = Color.Transparent;
             Label_Out_Phone.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_Phone.ForeColor = Color.CornflowerBlue;
+            Label_Out_Phone.ForeColor = Color.White;
             Label_Out_Phone.Location = new Point(900, 152);
             Label_Out_Phone.Name = "Label_Out_Phone";
             Label_Out_Phone.Size = new Size(53, 20);
@@ -286,8 +298,9 @@
             // Label_Out_MSSV
             // 
             Label_Out_MSSV.AutoSize = true;
+            Label_Out_MSSV.BackColor = Color.Transparent;
             Label_Out_MSSV.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_MSSV.ForeColor = Color.CornflowerBlue;
+            Label_Out_MSSV.ForeColor = Color.White;
             Label_Out_MSSV.Location = new Point(904, 111);
             Label_Out_MSSV.Name = "Label_Out_MSSV";
             Label_Out_MSSV.Size = new Size(49, 20);
@@ -297,8 +310,9 @@
             // Label_Out_Name
             // 
             Label_Out_Name.AutoSize = true;
+            Label_Out_Name.BackColor = Color.Transparent;
             Label_Out_Name.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Out_Name.ForeColor = Color.CornflowerBlue;
+            Label_Out_Name.ForeColor = Color.White;
             Label_Out_Name.Location = new Point(902, 70);
             Label_Out_Name.Name = "Label_Out_Name";
             Label_Out_Name.Size = new Size(51, 20);
@@ -307,7 +321,7 @@
             // 
             // Button_Back
             // 
-            Button_Back.BackColor = Color.CornflowerBlue;
+            Button_Back.BackColor = Color.FromArgb(128, 255, 255);
             Button_Back.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Back.Location = new Point(675, 350);
             Button_Back.Name = "Button_Back";
@@ -319,7 +333,7 @@
             // 
             // Button_Next
             // 
-            Button_Next.BackColor = Color.CornflowerBlue;
+            Button_Next.BackColor = Color.FromArgb(128, 255, 255);
             Button_Next.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Next.Location = new Point(807, 350);
             Button_Next.Name = "Button_Next";
@@ -343,7 +357,7 @@
             // 
             // Button_Write
             // 
-            Button_Write.BackColor = Color.CornflowerBlue;
+            Button_Write.BackColor = Color.FromArgb(128, 255, 255);
             Button_Write.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Write.Location = new Point(120, 16);
             Button_Write.Name = "Button_Write";
@@ -397,7 +411,7 @@
             // 
             // Button_Delete
             // 
-            Button_Delete.BackColor = Color.CornflowerBlue;
+            Button_Delete.BackColor = Color.FromArgb(128, 255, 255);
             Button_Delete.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Delete.Location = new Point(883, 350);
             Button_Delete.Name = "Button_Delete";

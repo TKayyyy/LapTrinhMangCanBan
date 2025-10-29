@@ -35,12 +35,12 @@
             Button_Bai05 = new Button();
             Button_Bai06 = new Button();
             Button_Bai07 = new Button();
-            Button_NA = new Button();
+            btn = new Button();
             SuspendLayout();
             // 
             // Button_Bai01
             // 
-            Button_Bai01.BackColor = Color.CornflowerBlue;
+            Button_Bai01.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai01.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai01.Location = new Point(192, 81);
             Button_Bai01.Name = "Button_Bai01";
@@ -52,7 +52,7 @@
             // 
             // Button_Bai02
             // 
-            Button_Bai02.BackColor = Color.CornflowerBlue;
+            Button_Bai02.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai02.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai02.Location = new Point(192, 157);
             Button_Bai02.Name = "Button_Bai02";
@@ -64,7 +64,7 @@
             // 
             // Button_Bai03
             // 
-            Button_Bai03.BackColor = Color.CornflowerBlue;
+            Button_Bai03.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai03.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai03.Location = new Point(192, 233);
             Button_Bai03.Name = "Button_Bai03";
@@ -76,7 +76,7 @@
             // 
             // Button_Bai04
             // 
-            Button_Bai04.BackColor = Color.CornflowerBlue;
+            Button_Bai04.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai04.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai04.Location = new Point(192, 309);
             Button_Bai04.Name = "Button_Bai04";
@@ -88,7 +88,7 @@
             // 
             // Button_Bai05
             // 
-            Button_Bai05.BackColor = Color.CornflowerBlue;
+            Button_Bai05.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai05.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai05.Location = new Point(427, 81);
             Button_Bai05.Name = "Button_Bai05";
@@ -100,7 +100,7 @@
             // 
             // Button_Bai06
             // 
-            Button_Bai06.BackColor = Color.CornflowerBlue;
+            Button_Bai06.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai06.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai06.Location = new Point(427, 157);
             Button_Bai06.Name = "Button_Bai06";
@@ -112,7 +112,7 @@
             // 
             // Button_Bai07
             // 
-            Button_Bai07.BackColor = Color.CornflowerBlue;
+            Button_Bai07.BackColor = Color.FromArgb(128, 255, 255);
             Button_Bai07.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             Button_Bai07.Location = new Point(427, 233);
             Button_Bai07.Name = "Button_Bai07";
@@ -122,17 +122,17 @@
             Button_Bai07.UseVisualStyleBackColor = false;
             Button_Bai07.Click += Button_B7_Click;
             // 
-            // Button_NA
+            // btn
             // 
-            Button_NA.BackColor = Color.CornflowerBlue;
-            Button_NA.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            Button_NA.Location = new Point(427, 309);
-            Button_NA.Name = "Button_NA";
-            Button_NA.Size = new Size(179, 38);
-            Button_NA.TabIndex = 7;
-            Button_NA.Text = "MSSV - 24520054";
-            Button_NA.UseVisualStyleBackColor = false;
-            Button_NA.Click += MSSV_24520054_Click;
+            btn.BackColor = Color.FromArgb(128, 255, 255);
+            btn.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btn.Location = new Point(427, 309);
+            btn.Name = "btn";
+            btn.Size = new Size(179, 38);
+            btn.TabIndex = 7;
+            btn.Text = "MSSV - 24520919";
+            btn.UseVisualStyleBackColor = false;
+            btn.Click += MSSV_24520919_Click;
             // 
             // Home
             // 
@@ -141,7 +141,7 @@
             BackgroundImage = Properties.Resources.Anhnen;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(Button_NA);
+            Controls.Add(btn);
             Controls.Add(Button_Bai07);
             Controls.Add(Button_Bai06);
             Controls.Add(Button_Bai05);
@@ -163,6 +163,6 @@
         private Button Button_Bai05;
         private Button Button_Bai06;
         private Button Button_Bai07;
-        private Button Button_NA;
+        private Button btn;
     }
 }

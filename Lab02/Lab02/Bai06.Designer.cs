@@ -27,7 +27,7 @@ namespace Lab02
             // 
             // Button_Exit
             // 
-            Button_Exit.BackColor = Color.CornflowerBlue;
+            Button_Exit.BackColor = Color.FromArgb(128, 255, 255);
             Button_Exit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Exit.ForeColor = SystemColors.ControlText;
             Button_Exit.Location = new Point(22, 596);
@@ -40,7 +40,7 @@ namespace Lab02
             // 
             // Button_FindRandom
             // 
-            Button_FindRandom.BackColor = Color.CornflowerBlue;
+            Button_FindRandom.BackColor = Color.FromArgb(128, 255, 255);
             Button_FindRandom.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_FindRandom.ForeColor = SystemColors.ControlText;
             Button_FindRandom.Location = new Point(650, 289);
@@ -53,7 +53,7 @@ namespace Lab02
             // 
             // Button_ReadFile
             // 
-            Button_ReadFile.BackColor = Color.CornflowerBlue;
+            Button_ReadFile.BackColor = Color.FromArgb(128, 255, 255);
             Button_ReadFile.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_ReadFile.ForeColor = SystemColors.ControlText;
             Button_ReadFile.Location = new Point(55, 23);
@@ -67,8 +67,9 @@ namespace Lab02
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            label3.ForeColor = Color.Navy;
+            label3.ForeColor = Color.White;
             label3.Location = new Point(1013, 33);
             label3.Name = "label3";
             label3.Size = new Size(163, 23);
@@ -77,7 +78,7 @@ namespace Lab02
             // 
             // Button_DeleteAll
             // 
-            Button_DeleteAll.BackColor = Color.CornflowerBlue;
+            Button_DeleteAll.BackColor = Color.FromArgb(128, 255, 255);
             Button_DeleteAll.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_DeleteAll.ForeColor = SystemColors.ControlText;
             Button_DeleteAll.Location = new Point(475, 23);

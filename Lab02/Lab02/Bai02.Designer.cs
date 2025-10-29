@@ -48,7 +48,7 @@
             // 
             // Button_Read
             // 
-            Button_Read.BackColor = Color.CornflowerBlue;
+            Button_Read.BackColor = Color.FromArgb(128, 255, 255);
             Button_Read.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Read.Location = new Point(12, 12);
             Button_Read.Name = "Button_Read";
@@ -60,7 +60,7 @@
             // 
             // Button_Exit
             // 
-            Button_Exit.BackColor = Color.CornflowerBlue;
+            Button_Exit.BackColor = Color.FromArgb(128, 255, 255);
             Button_Exit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Exit.Location = new Point(12, 405);
             Button_Exit.Name = "Button_Exit";
@@ -73,8 +73,9 @@
             // Label_FileName
             // 
             Label_FileName.AutoSize = true;
+            Label_FileName.BackColor = Color.Transparent;
             Label_FileName.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_FileName.ForeColor = Color.CornflowerBlue;
+            Label_FileName.ForeColor = Color.White;
             Label_FileName.Location = new Point(12, 90);
             Label_FileName.Name = "Label_FileName";
             Label_FileName.Size = new Size(76, 20);
@@ -84,8 +85,9 @@
             // Label_Size
             // 
             Label_Size.AutoSize = true;
+            Label_Size.BackColor = Color.Transparent;
             Label_Size.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_Size.ForeColor = Color.CornflowerBlue;
+            Label_Size.ForeColor = Color.White;
             Label_Size.Location = new Point(12, 143);
             Label_Size.Name = "Label_Size";
             Label_Size.Size = new Size(36, 20);
@@ -95,8 +97,9 @@
             // Label_URL
             // 
             Label_URL.AutoSize = true;
+            Label_URL.BackColor = Color.Transparent;
             Label_URL.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_URL.ForeColor = Color.CornflowerBlue;
+            Label_URL.ForeColor = Color.White;
             Label_URL.Location = new Point(13, 196);
             Label_URL.Name = "Label_URL";
             Label_URL.Size = new Size(38, 20);
@@ -106,8 +109,9 @@
             // Label_LineCount
             // 
             Label_LineCount.AutoSize = true;
+            Label_LineCount.BackColor = Color.Transparent;
             Label_LineCount.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_LineCount.ForeColor = Color.CornflowerBlue;
+            Label_LineCount.ForeColor = Color.White;
             Label_LineCount.Location = new Point(12, 249);
             Label_LineCount.Name = "Label_LineCount";
             Label_LineCount.Size = new Size(82, 20);
@@ -117,8 +121,9 @@
             // Label_WordsCount
             // 
             Label_WordsCount.AutoSize = true;
+            Label_WordsCount.BackColor = Color.Transparent;
             Label_WordsCount.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_WordsCount.ForeColor = Color.CornflowerBlue;
+            Label_WordsCount.ForeColor = Color.White;
             Label_WordsCount.Location = new Point(12, 302);
             Label_WordsCount.Name = "Label_WordsCount";
             Label_WordsCount.Size = new Size(99, 20);
@@ -128,8 +133,9 @@
             // Label_CharacterCount
             // 
             Label_CharacterCount.AutoSize = true;
+            Label_CharacterCount.BackColor = Color.Transparent;
             Label_CharacterCount.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Label_CharacterCount.ForeColor = Color.CornflowerBlue;
+            Label_CharacterCount.ForeColor = Color.White;
             Label_CharacterCount.Location = new Point(12, 355);
             Label_CharacterCount.Name = "Label_CharacterCount";
             Label_CharacterCount.Size = new Size(120, 20);
@@ -191,8 +197,9 @@
             // Label_Content
             // 
             Label_Content.AutoSize = true;
+            Label_Content.BackColor = Color.Transparent;
             Label_Content.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Label_Content.ForeColor = Color.CornflowerBlue;
+            Label_Content.ForeColor = Color.White;
             Label_Content.Location = new Point(345, 50);
             Label_Content.Name = "Label_Content";
             Label_Content.Size = new Size(96, 30);

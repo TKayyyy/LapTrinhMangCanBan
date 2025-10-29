@@ -44,7 +44,7 @@ namespace Lab02
         //Nhấn Bài 5
         private void Button_B5_Click(object sender, EventArgs e)
         {
-            Bai05 BT = new Bai05(this.Location, this.Size);
+            Bai05 BT = new Bai05();
             BT.Show();
             this.Hide();
         }
@@ -62,9 +62,10 @@ namespace Lab02
             BT.Show();
             this.Hide();
         }
-        private void MSSV_24520054_Click(object sender, EventArgs e)
+        private void MSSV_24520919_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
     }
 }
+    

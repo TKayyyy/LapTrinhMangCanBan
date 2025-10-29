@@ -28,7 +28,7 @@ namespace Lab02
             // 
             // Button_Exit
             // 
-            Button_Exit.BackColor = Color.CornflowerBlue;
+            Button_Exit.BackColor = Color.FromArgb(128, 255, 255);
             Button_Exit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Exit.Location = new Point(12, 500);
             Button_Exit.Name = "Button_Exit";
@@ -51,7 +51,7 @@ namespace Lab02
             GroupBox.BackColor = Color.AliceBlue;
             GroupBox.Controls.Add(PictureBox);
             GroupBox.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            GroupBox.ForeColor = Color.CornflowerBlue;
+            GroupBox.ForeColor = Color.Black;
             GroupBox.Location = new Point(310, 12);
             GroupBox.Name = "GroupBox";
             GroupBox.Size = new Size(530, 470);

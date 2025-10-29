@@ -34,8 +34,9 @@
             // Label_Operation
             // 
             Label_Operation.AutoSize = true;
+            Label_Operation.BackColor = Color.Transparent;
             Label_Operation.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Label_Operation.ForeColor = Color.CornflowerBlue;
+            Label_Operation.ForeColor = Color.White;
             Label_Operation.Location = new Point(12, 79);
             Label_Operation.Name = "Label_Operation";
             Label_Operation.Size = new Size(118, 30);
@@ -54,8 +55,9 @@
             // Label_Result
             // 
             Label_Result.AutoSize = true;
+            Label_Result.BackColor = Color.Transparent;
             Label_Result.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            Label_Result.ForeColor = Color.CornflowerBlue;
+            Label_Result.ForeColor = Color.White;
             Label_Result.Location = new Point(421, 79);
             Label_Result.Name = "Label_Result";
             Label_Result.Size = new Size(76, 30);
@@ -73,7 +75,7 @@
             // 
             // Button_Exit
             // 
-            Button_Exit.BackColor = Color.CornflowerBlue;
+            Button_Exit.BackColor = Color.FromArgb(128, 255, 255);
             Button_Exit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_Exit.Location = new Point(12, 402);
             Button_Exit.Name = "Button_Exit";
@@ -85,7 +87,7 @@
             // 
             // Button_ReadIn
             // 
-            Button_ReadIn.BackColor = Color.CornflowerBlue;
+            Button_ReadIn.BackColor = Color.FromArgb(128, 255, 255);
             Button_ReadIn.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             Button_ReadIn.Location = new Point(12, 25);
             Button_ReadIn.Name = "Button_ReadIn";
@@ -97,7 +99,7 @@
             // 
             // button_ReadOut
             // 
-            button_ReadOut.BackColor = Color.CornflowerBlue;
+            button_ReadOut.BackColor = Color.FromArgb(128, 255, 255);
             button_ReadOut.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button_ReadOut.Location = new Point(421, 25);
             button_ReadOut.Name = "button_ReadOut";
